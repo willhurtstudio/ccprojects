@@ -1,0 +1,82 @@
+body{
+    background-color: blueviolet;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 150;
+    user-select: none;
+    padding-bottom: 3px;
+}
+#audio-player-container{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(199, 205, 10);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#container1{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(199, 205, 10);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#container2{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(232, 15, 48);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#container3{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(18, 210, 43);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+}
+#container4{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(62, 12, 225);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#play-pause-button{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#current-time{
+    width: 45px;
+    padding-left: 10px;
+}
+#time-divider{
+    padding-left: 5px;
+}
+#total-time{
+    width: 45px
+}
+#seek-bar{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#volume-bar{
+    width: 150px;
+    cursor: pointer;
+    margin-inline-start: auto;
+}
